@@ -13,6 +13,7 @@ $(document).ready(function() {
     });
 });
 
+// down-arrow bounce effect
 $(document).ready(function(){
     
     jQuery(".down-arrow").effect("bounce", {distance: 10, times: 1}, 2000);
@@ -21,3 +22,4 @@ $(document).ready(function(){
         jQuery(".down-arrow").effect("bounce", {distance: 10, times: 1}, 2000);
     }, 2000); // every half second
 });
+

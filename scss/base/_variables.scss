@@ -42,7 +42,8 @@ $noTouch: 'screen and (min-width: 2733)'; // largest IOS touch screen size (iPad
 
 $brk-navbar-toggle: 'screen and (max-width: 850px)'; // when to hide full navbar
 
-$brk-row-toggle: 'screen and (min-width: 1100px)';
+$row-toggle-width: 1100px;
+$brk-row-toggle: 'screen and (min-width: #{$row-toggle-width})';
 
 $brk-1: '(min-width: 400px)';
 $brk-2: '(min-width: 500px)';

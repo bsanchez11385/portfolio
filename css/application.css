@@ -654,6 +654,12 @@ ul.topnav img {
   .sec-container-2 .sec-action-button {
     margin-top: calc(30px / 3);
     margin-bottom: 30px; }
+  .sec-container-2 .about {
+    max-width: calc( 1100px ); }
+    .sec-container-2 .about .sec-heading {
+      text-align: center; }
+  .sec-container-2 #about-sec-hr {
+    margin-top: 10px; }
   .sec-container-2 .row-1 {
     text-align: right; }
     .sec-container-2 .row-1 .sec-heading {

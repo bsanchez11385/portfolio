@@ -79,6 +79,15 @@
         margin-top: calc(#{$secActionButtonTopBottomMargin} / 3);
         margin-bottom: $secActionButtonTopBottomMargin;
     }
+    .about{
+        max-width: calc( #{$row-toggle-width} );
+        .sec-heading{
+            text-align: center;
+        }
+    }
+    #about-sec-hr{
+        margin-top: $secActionButtonPadding; // the same padding between the buttons and sec-hr's
+    }
     // row 1
     .row-1{
         text-align: right;

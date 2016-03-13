@@ -17,6 +17,11 @@
     .sec-heading{
         color: $quintiary-color;
     }
+    .about{
+        p img{
+            border-radius: 25px;
+        }
+    }
 }
 
 // section dividers

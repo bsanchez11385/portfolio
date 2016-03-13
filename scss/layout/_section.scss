@@ -84,6 +84,16 @@
         .sec-heading{
             text-align: center;
         }
+        p img{
+            width: 180px;
+            height: auto;
+            display: block;
+            margin: auto !important;
+            @media #{$brk-2}{
+                float: left;
+                margin: $aboutPictureMargin $aboutPictureMargin 0 0 !important;
+            }
+        }
     }
     #about-sec-hr{
         margin-top: $secActionButtonPadding; // the same padding between the buttons and sec-hr's

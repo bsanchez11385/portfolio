@@ -1,0 +1,21 @@
+section{
+    @include openSans();
+    h1,h2,h3 {
+        @include raleway();
+    }
+    .sec-heading{
+        text-decoration: underline;
+    }
+    p{
+        line-height: 2;
+        font-size: 1.5rem;
+    }
+}
+
+.slabtext{
+    @include raleway();
+    
+    .underline{
+        border-bottom: 2px solid $tertiary-color;
+    }
+}

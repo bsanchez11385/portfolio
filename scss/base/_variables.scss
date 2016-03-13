@@ -1,0 +1,68 @@
+// ----- colors -----
+$primary-color: #fff; // 
+$secondary-color: #919191; // 
+$tertiary-color:  #616961; //
+$quartiary-color: #A13F52; //
+$quintiary-color: #3fa18e; //
+$sextiary-color: #000; //
+$septiary-color: #d1d4d4; //
+// ============================================== $quartiary-color: #fff; // 
+
+$headerTextColor: $primary-color; // text-color: header
+$sectionTextColor: $secondary-color;// text-color: section
+
+// ----- font sizes -----
+$startingLogoH1Size: 1rem;
+$startingLogoH2Size: 1rem;
+$startingNavbarSize: 1rem;
+
+// ----- height & widths -----
+$maxWidth: 1200px;
+$maxRowWidth: 700px;
+$headerHeight: 60px; // height of the header
+$secPWidth: 75%;
+$secPWidthDec: .75; // $secPWidth : as decimal
+// ============================================== $triangleHeight: 5vw; // height of css shape triangles
+
+// ----- padding and margins -----
+$sidePadding: 5vw; // general side padding
+$secHeadingSidePadding: calc((100% - #{$secPWidth})/4); // side padding for section headers
+$secHeadingTopBottomPadding: 20px; // side padding for section headers
+$secActionButtonTopBottomMargin: 30px; // Top and Bottom Margins for section action buttons
+$secActionButtonSideMargin: $secHeadingSidePadding; //Side Margins for section action buttons
+$secActionButtonPadding: 10px; // padding for section action buttons
+// ============================================== $navLiTopBottomPadding: 10px; // side padding for nav items
+// ============================================== $navLiSidePadding: 10px; // side padding for nav items
+
+// ----- media queries -----
+$portrait: 'screen and (orientation: portrait)'; // portrait
+$landscape: 'screen and (orientation: landscape)'; // landscape
+
+$noTouch: 'screen and (min-width: 2733)'; // largest IOS touch screen size (iPad Pro)
+
+$brk-navbar-toggle: 'screen and (max-width: 950px)'; // when to hide full navbar
+
+$brk-row-toggle: 'screen and (min-width: 1100px)';
+
+$brk-1: '(min-width: 400px)';
+$brk-2: '(min-width: 500px)';
+$brk-3: '(min-width: 600px)';
+$brk-4: '(min-width: 700px)';
+$brk-5: '(min-width: 800px)';
+$brk-6: '(min-width: 900px)';
+$brk-7: '(min-width: 1000px)';
+$brk-8: '(min-width: 1100px)';
+$brk-9: '(min-width: 1200px)';
+$brk-10: '(min-width: 1300px)';
+
+$hbrk-1: '(min-height: 100px)';
+$hbrk-2: '(min-height: 200px)';
+$hbrk-3: '(min-height: 300px)';
+$hbrk-4: '(min-height: 400px)';
+$hbrk-5: '(min-height: 500px)';
+
+// MATH
+
+$x: calc( ( ( #{$maxRowWidth} - ( #{$secPWidthDec} * #{$maxRowWidth} ) ) / 4 ) );
+// this is the distance i need to translate the the p in row-2 to the right by. (b/c i translated the headings as well)
+$transformP: calc( ( ( ( 1 - #{$secPWidthDec} ) / 2 ) * #{$maxRowWidth} ) - ( ( #{$maxRowWidth} - ( #{$secPWidthDec} * #{$maxRowWidth} ) ) / 4 ) );

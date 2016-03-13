@@ -1,0 +1,20 @@
+// box sizing reset
+* {
+	box-sizing: border-box !important;
+    -webkit-box-sizing: border-box !important;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+// reset header padding/margin
+h1,h2,h3,h4,h5 {
+    margin: 0;
+    padding: 0;
+}
+
+// links
+a,a:hover,a:active,a:visited,a:link {
+    text-decoration: none;
+    outline: 0;
+}

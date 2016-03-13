@@ -1,0 +1,43 @@
+// ----- Font Stacks -----
+
+// Open Sans
+@mixin openSans(){
+    font-family: 'Open Sans', sans-serif;
+}
+
+// Raleway
+@mixin raleway(){
+    font-family: 'Raleway', sans-serif;
+}
+
+// ----- Layout -----
+
+// Translate (x and y)
+@mixin translatexy($x:null,$y: null) {
+    -ms-transform: translate($x , $y);
+    -webkit-transform: translate($x , $y);
+    transform: translate($x , $y);
+}
+
+// Center (replace centering with flexbox)
+@mixin center() {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        @include translatexy(-50%,-50%);
+}
+
+@mixin ycenter() {
+    position: absolute;
+    top: 50%;
+    @include translatexy(0%,-50%);
+}
+
+// Transition Ease
+@mixin ease($time:250ms, $attr:all, $curve:ease-in-out) {
+	  -webkit-transition: $attr $time $curve;
+	  -moz-transition: $attr $time $curve;
+	  -o-transition: $attr $time $curve;
+	  -ms-transition: $attr $time $curve;
+	  transition: $attr $time $curve;
+}

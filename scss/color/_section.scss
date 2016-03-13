@@ -1,0 +1,25 @@
+// Slabtext Text
+.slabtext{
+    color: $tertiary-color;
+}
+
+// first section
+.sec-container-1{
+    background: url('../img/sketches-bg-min.png') no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+// second section
+.sec-container-2{
+     color: $tertiary-color;
+     border-top: 1px solid $secondary-color;
+    .sec-heading{
+        color: $quintiary-color;
+    }
+}
+
+// section dividers
+.sec-hr{
+    border-color: $secondary-color !important;
+}

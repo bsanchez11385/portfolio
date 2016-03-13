@@ -1,0 +1,14 @@
+.sec-action-button{
+    display: inline-block;
+    padding: $secActionButtonPadding;
+    border: 1px solid $quartiary-color;
+    color: $quartiary-color;
+    font-size: 1.75rem !important; // prevent from getting overwritten later
+    @include ease();
+}
+
+.sec-action-button:hover{
+    @include ease();
+    background: $quartiary-color;
+    color: $primary-color;
+}

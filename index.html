@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Title --><title> BackHat Web Design</title>
+        <!-- Page Icon --><link rel="shortcut icon" href="img/bh-icon.png">
+        <!-- Font Awesome --><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+        <!-- Bootstrap CSS --><link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Application CSS--><link rel="stylesheet" type="text/css" href="css/application.css">
+
+        <!-- JQuery JS --><script src="js/jquery.js"></script>
+        <!-- JQuery UI --><script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+        <!-- Local Scroll JS --><script src="js/localScroll.js"></script>
+        <!-- Scroll To JS --><script src="js/scrollTo.js"></script>
+        <!-- Main JS --><script src="js/main.js"></script>
+
+        <!-- Viewport - Mobile --><meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+        <!-- Down Arrow Scroll JS -->
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#down-arrow-anchor').localScroll({duration:1000});
+            });
+        </script>
+    </head>
+    <body onresize="slabby()">   
+        <header>
+        <ul class="topnav">
+            <a href="#"><li id="logo"><img src="img/bh-full.png"></li></a>
+            <span style="color: #A13F52; font-size: 10px;">&lt;\Under Construction&gt;</span>
+            <li id="hide"><a>bakgat</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Home</a></li>
+            <li class="icon">
+                <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+            </li>
+        </ul>
+        </header>
+        <section>
+            <div class="section-container sec-container-1">
+                <div id="slab-text-container">
+                    <h1 class="toslab">
+                    </h1>
+                </div>
+                <div id="down-arrow-anchor"><a href="#section-1"><div class="down-arrow"></div></a></div>
+            </div>
+            <div class="section-container sec-container-2">
+                <a name="section-1"></a>
+                <div class="row row-1">
+                    <h1 class="sec-heading">What I Do</h1>
+                    <p>I design and develop websites. Every site serves a unique prupose, so why not uniquely design it for that purpose?</p>
+                    <p>Whether you know exactly what you need, or would like help figuring it out, let me give you a hand&mdash;it's what I do.</p>
+                    <img src="img/Responsive-sketch.png">
+                    <a href="#"><div class="action-button sec-action-button">Let's Make Things Happen!</div></a>
+                </div>
+                <hr class="sec-hr">
+                <div class="row row-2">
+                    <h1 class="sec-heading">How I Do It</h1>
+                    <p>This part is simple. Let me know what you're looking for, or we can figure that out together. I'll come up with a game plan and we'll go over it.</p>
+                    <p>Once you love the plan, the real fun begins. I'll keep you updated along the way, and soon you'll have a web presence to be proud of.</p>
+                    <img src="img/list.png">
+                    <a href="#"><div class="action-button sec-action-button">Don't be Shy. Talk to Me!</div></a>
+                </div>
+                <hr class="sec-hr">
+                <div class="row row-3">
+                    <h1 class="sec-heading">Why I Do It</h1>
+                    <p>Because I love it! There are always multiple things someone can do, and do quite well. But when you do something you LOVE, it's a whole other ball game.</p>
+                    <p>Long hours become enjoyable, tough problems become exciting puzzles, and "hard work" is something you now look forward to.</p>
+                    <p>It brings me great joy to be able to take an idea, vision, or a concept, and make it a reality. I absolutely love doing this!</p>
+                    <img src="img/i-heart-code.png">
+                    <a href="#"><div class="action-button sec-action-button">Click Here for Awesome Website!</div></a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <!-- Footer Wrapper -->
+            <div class="footer-wrapper">
+                    <!-- go-to-top button -->
+                    <div class="go-top" id="go-top">
+                        <a href="#">
+                            <i class="fa fa-4x fa-chevron-up" id="up-arrow"></i>
+                        </a>
+                    </div><!-- /go-to-top button -->
+                    <!-- copyright -->
+                    <div class='copyright' id="copyright-footer">
+                        <span>Copyright &#169; 2016 | BackHat Web Development</span>
+                    </div><!-- /copyright -->
+            </div><!-- Footer Wrapper -->
+        </footer>
+        <!-- SlabText JS --><script src="js/slabText.js"></script>
+        <script type="text/javascript">
+            var stS = "<span class='slabtext'>",
+            stE = "</span>",
+            txt = [
+                "<span class='offset-1 bold'>Hi</span>, I'm <span class='i'>Brian Sanchez</span>.",
+                "I'm an <span class='underline'>up-and-coming</span>",
+                "<span class='offset-2'>Web Designer</span>", 
+                "and I <span class='offset-1 i bold'>LOVE</span> what I do."];
+            
+            $(".toslab").html(stS + txt.join(stE + stS) + stE).slabText();
+            function slabby(){
+                $(".toslab").html(stS + txt.join(stE + stS) + stE).slabText();
+            }
+        </script> <!-- end Slabtext Script -->
+    </body>
+</html>

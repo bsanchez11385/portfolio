@@ -24,6 +24,9 @@
             $(document).ready(function() {
                 $('#about-me-anchor').localScroll({duration:750});
             });
+            $(document).ready(function() {
+                $('#contact-anchor').localScroll({duration:750});
+            });
         </script>
     </head>
     <body onresize="slabby()">   
@@ -31,7 +34,7 @@
         <ul class="topnav">
             <a href="#"><li id="logo"><img src="img/bh-full.png"></li></a>
             <li id="hide"><a>bakgat</a></li>
-            <li><a href="#" onclick="myFunction()">Contact</a></li>
+            <li id="contact-anchor"><a href="#contact" onclick="myFunction()">Contact</a></li>
             <li><a href="#" onclick="myFunction()">Resume</a></li>
             <li><a href="#" onclick="myFunction()">Portfolio</a></li>
             <li id="about-me-anchor"><a href="#about" onclick="myFunction()">About Me</a></li>
@@ -93,6 +96,12 @@
                             <i class="fa fa-4x fa-chevron-up" id="up-arrow"></i>
                         </a>
                     </div><!-- /go-to-top button -->
+                    <a name="contact"></a>
+                    <!-- contact info -->
+                    <div class='contact-info' id='footer-contact-info'>
+                        <h1 class="foot-header">Contact Me</h1>
+                    </div>
+                    <!-- /contact info -->
                     <!-- copyright -->
                     <div class='copyright' id="copyright-footer">
                         <span>Copyright &#169; 2016 | BackHat Web Development</span>

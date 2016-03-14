@@ -644,7 +644,6 @@ ul.topnav img {
 
 .sec-container-2 {
   padding-top: 25px;
-  margin-bottom: 25px;
   position: relative; }
   .sec-container-2 p {
     width: 75%;
@@ -669,8 +668,6 @@ ul.topnav img {
         .sec-container-2 .about p img {
           float: left;
           margin: 20px 20px 0 0 !important; } }
-  .sec-container-2 #about-sec-hr {
-    margin-top: 10px; }
   .sec-container-2 .row-1 {
     text-align: right; }
     .sec-container-2 .row-1 .sec-heading {
@@ -753,6 +750,15 @@ ul.topnav img {
   padding: 0;
   margin-top: 0;
   margin-bottom: 0; }
+
+.sec-hr-top-pad {
+  margin-top: 10px; }
+
+.sec-hr-bottom-pad {
+  margin-bottom: 10px; }
+
+.lg-sec-hr {
+  width: 80vw; }
 
 footer .footer-wrapper {
   margin: auto;

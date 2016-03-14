@@ -7,6 +7,7 @@
 
         <!-- Bootstrap CSS --><link rel="stylesheet" href="css/bootstrap.min.css">
         <!-- Application CSS--><link rel="stylesheet" type="text/css" href="css/application.css">
+        <!-- Badges CSS --><link rel="stylesheet" href="js/reportcard/css/badges.css">
 
         <!-- JQuery JS --><script src="js/jquery.js"></script>
         <!-- JQuery UI --><script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
@@ -88,11 +89,14 @@
                     <img src="img/i-heart-code.png">
                     <a href="#"><div class="action-button sec-action-button">Click Here for Awesome Website!</div></a>
                 </div>
-            </div>
-            <hr class="sec-hr lg-sec-hr sec-hr-bottom-pad">
-            <a name="resume"></a>
-            <div class='report-card-container'>
-                <div class="report-card treehouse"></div>
+                <hr class="sec-hr lg-sec-hr sec-hr-bottom-pad">
+                <a name="resume"></a>
+                <div class="resume">
+                    <h1 class="sec-heading">Resume</h1>
+                    <div class='report-card-container'>
+                        <div class="report-card treehouse"></div>
+                    </div>
+                </div>
             </div>
         </section>
         <footer>
@@ -131,5 +135,13 @@
                 $(".toslab").html(stS + txt.join(stE + stS) + stE).slabText();
             }
         </script> <!-- end Slabtext Script -->
+        <!-- Badges JS --><script src="js/reportcard/js/reportcard.js"></script>
+        <script>
+            $('.report-card.treehouse').reportCard({
+                userName: 'briansanchez2',
+                site: 'treehouse',
+                badgesAmount: 7
+            });
+        </script><!-- end Badges JS -->
     </body>
 </html>

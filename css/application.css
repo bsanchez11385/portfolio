@@ -529,7 +529,7 @@ ul.topnav img {
   display: none; }
 
 /* When the screen is less than smaller, hide all list items */
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 750px) {
   ul.topnav li {
     display: none; }
 
@@ -549,7 +549,7 @@ ul.topnav img {
     padding: 16px 25px;
     font-size: 20px; } }
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 750px) {
   ul.topnav.responsive {
     position: relative; }
 

@@ -10,12 +10,9 @@ $quintiary-color-light: #56bda9;//
 $quintiary-color-dark: #317c6e;//
 $sextiary-color: #000; //
 $septiary-color: #d1d4d4; //
-$eigth-color: #8e3fa1;//
-$eigth-color-light: #a465b3;//
-$eigth-color-dark: #713280;//
-$ninth-color: #3f52a1;//
-$ninth-color-light: #6574b3;//
-$ninth-color-dark: #324180;//
+$eigth-color: #FCC363;//
+$ninth-color: #4A6FA6;//
+$tenth-color: #FC9F63;
 // ============================================== $quartiary-color: #fff; // 
 
 $headerTextColor: $primary-color; // text-color: header
@@ -33,7 +30,7 @@ $headerHeight: 60px; // height of the header
 $secPWidth: 75%; // width for paragraphs in section (for bigger vw's)
 $secPWidthDec: .75; // $secPWidth : as decimal
 $secCompWidth: 90%; // width for components in section (and paragraphs for smaller vw's)
-$secSpacerHeight: 15px; // height of section spacers
+$secSpacerHeight: 10px; // height of section spacers
 // ============================================== $triangleHeight: 5vw; // height of css shape triangles
 
 // ----- padding and margins -----
@@ -42,7 +39,7 @@ $secHeadingSidePadding: calc((100% - #{$secPWidth})/4); // side padding for sect
 $secHeadingTopBottomPadding: 20px; // side padding for section headers
 $secActionButtonTopBottomMargin: 30px; // Top and Bottom Margins for section action buttons
 $secActionButtonSideMargin: $secHeadingSidePadding; //Side Margins for section action buttons
-$secActionButtonPadding: 10px; // padding for section action buttons
+$secActionButtonPadding: 15px; // padding for section action buttons
 $aboutPictureMargin: 20px; // padding around about-me picture
 // ============================================== $navLiTopBottomPadding: 10px; // side padding for nav items
 // ============================================== $navLiSidePadding: 10px; // side padding for nav items

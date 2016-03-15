@@ -21,6 +21,7 @@
 	-ms-transition-property:width, background-color;
 	-o-transition-property:width, background-color;
 	transition-property:width, background-color;
+    @include raleway();
 }
 
 .skillbar-title {
@@ -42,7 +43,7 @@
 .skillbar-title span {
 	display:block;
 	background:rgba(0, 0, 0, 0.1);
-	padding:0 20px;
+	padding:0;
 	height:35px;
 	line-height:35px;
 	-webkit-border-top-left-radius:3px;
@@ -69,6 +70,37 @@
 	font-size:11px;
 	height:35px;
 	line-height:35px;
-	color:#444;
-	color:rgba(0, 0, 0, 0.4);
+	color:$tertiary-color;
 }
+
+// individual colors
+
+.skillbar-title{
+    background: $tertiary-color;
+    width: 80px;
+    text-align: center;
+    padding-left: 0;
+}
+.skillbar-bar{
+    background: $quintiary-color;
+}
+// #html5{
+//     .skillbar-bar{
+//         background: $ninth-color;
+//     }
+// }
+// #css3{
+//     .skillbar-bar{
+//         background: $tenth-color;
+//     }
+// }
+// #js{
+//     .skillbar-bar{
+//         background: $quintiary-color;
+//     }
+// }
+// #php{
+//     .skillbar-bar{
+//         background: $eigth-color;
+//     }
+// }

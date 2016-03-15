@@ -10,10 +10,10 @@
     margin-bottom: 0;
 }
 .sec-hr-top-pad{
-     margin-top: $secActionButtonPadding; // the same padding between the buttons and sec-hr's
+     margin-top: $secActionButtonTopBottomMargin; // the same padding between the buttons and sec-hr's
 }
 .sec-hr-bottom-pad{
-    margin-bottom: $secActionButtonPadding; // the same padding between the buttons and sec-hr's
+    margin-bottom: calc(#{$secActionButtonTopBottomMargin} - 7.5px); // the same padding between the buttons and sec-hr's
 }
 .lg-sec-hr{
     width: 100% !important;

@@ -570,7 +570,7 @@ ul.topnav img {
     display: block; } }
 .sec-action-button {
   display: inline-block;
-  padding: 10px;
+  padding: 15px;
   border: 1px solid #A13F52;
   color: #A13F52;
   font-size: 1.75rem !important;
@@ -627,7 +627,8 @@ ul.topnav img {
   -moz-transition-property: width, background-color;
   -ms-transition-property: width, background-color;
   -o-transition-property: width, background-color;
-  transition-property: width, background-color; }
+  transition-property: width, background-color;
+  font-family: 'Raleway', sans-serif; }
 
 .skillbar-title {
   position: absolute;
@@ -647,7 +648,7 @@ ul.topnav img {
 .skillbar-title span {
   display: block;
   background: rgba(0, 0, 0, 0.1);
-  padding: 0 20px;
+  padding: 0;
   height: 35px;
   line-height: 35px;
   -webkit-border-top-left-radius: 3px;
@@ -672,8 +673,16 @@ ul.topnav img {
   font-size: 11px;
   height: 35px;
   line-height: 35px;
-  color: #444;
-  color: rgba(0, 0, 0, 0.4); }
+  color: #616961; }
+
+.skillbar-title {
+  background: #616961;
+  width: 80px;
+  text-align: center;
+  padding-left: 0; }
+
+.skillbar-bar {
+  background: #3fa18e; }
 
 .sec-hr {
   width: 65vw;
@@ -686,10 +695,10 @@ ul.topnav img {
   margin-bottom: 0; }
 
 .sec-hr-top-pad {
-  margin-top: 10px; }
+  margin-top: 30px; }
 
 .sec-hr-bottom-pad {
-  margin-bottom: 10px; }
+  margin-bottom: calc(30px - 7.5px); }
 
 .lg-sec-hr {
   width: 100% !important;
@@ -697,7 +706,7 @@ ul.topnav img {
 
 .sec-spacer {
   width: 1px;
-  height: 15px;
+  height: 10px;
   background: transparent !important; }
 
 .row {

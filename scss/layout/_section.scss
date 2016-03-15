@@ -172,16 +172,18 @@
             }   
         }
     }
-}
-
-.portfolio{
-    .sec-heading{
+    .portfolio{
+        .sec-heading{
         text-align: center;
+        }
     }
-}
 
-.contact{
-    .sec-heading{
-        text-align: center;
+    .contact{
+        .sec-heading{
+            text-align: center;
+        }
+        p{
+            max-width: calc(#{$maxRowWidth} * #{$secPWidthDec});
+        }
     }
 }

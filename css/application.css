@@ -863,12 +863,12 @@ ul.topnav img {
     @media screen and (min-width: 1100px) {
       .sec-container-2 .row-3 img {
         display: block; } }
-
-.portfolio .sec-heading {
-  text-align: center; }
-
-.contact .sec-heading {
-  text-align: center; }
+  .sec-container-2 .portfolio .sec-heading {
+    text-align: center; }
+  .sec-container-2 .contact .sec-heading {
+    text-align: center; }
+  .sec-container-2 .contact p {
+    max-width: calc(700px * 0.75); }
 
 footer {
   margin-top: 25px; }

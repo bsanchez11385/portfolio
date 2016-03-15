@@ -741,7 +741,7 @@ ul.topnav img {
         height: 30px;
         width: 60px;
         bottom: 15px; } }
-    @media (min-height: 500px) and (min-width: 500px) {
+    @media (min-height: 500px) {
       .sec-container-1 .down-arrow {
         height: 40px;
         width: 80px;

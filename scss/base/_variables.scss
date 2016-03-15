@@ -20,8 +20,10 @@ $startingNavbarSize: 1rem;
 $maxWidth: 1200px;
 $maxRowWidth: 700px;
 $headerHeight: 60px; // height of the header
-$secPWidth: 75%;
+$secPWidth: 75%; // width for paragraphs in section (for bigger vw's)
 $secPWidthDec: .75; // $secPWidth : as decimal
+$secCompWidth: 90%; // width for components in section (and paragraphs for smaller vw's)
+$secSpacerHeight: 15px; // height of section spacers
 // ============================================== $triangleHeight: 5vw; // height of css shape triangles
 
 // ----- padding and margins -----

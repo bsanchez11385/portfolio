@@ -23,3 +23,19 @@ $(document).ready(function(){
     }, 2000); // every half second
 });
 
+// activate skill bars on scroll
+$(window).scroll(function() {
+   var hT = $('.skillbar').offset().top,
+       hH = $('.skillbar').outerHeight(),
+       wH = $(window).height(),
+       wS = $(this).scrollTop();
+   if (wS > (hT+hH-wH)){
+       // skill bar code
+       jQuery('.skillbar').each(function(){
+            jQuery(this).find('.skillbar-bar').animate({
+                width:jQuery(this).attr('data-percent')
+            },6000);
+        });
+        
+   }
+});

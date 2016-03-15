@@ -64,10 +64,13 @@
     
     // paragraphs
     p{
-        width: $secPWidth;
         margin-left: auto;
         margin-right: auto;
         text-align: left !important; // override text-align used to align action items
+        width: $secCompWidth;
+        @media #{$brk-3}{
+            width: $secPWidth;
+        }
     }
     // headings
     .sec-heading{
@@ -175,26 +178,4 @@
     .sec-heading{
         text-align: center;
     }
-}
-
-// section seperators
-.sec-hr{
-    width: 65vw;
-    min-width: 250;
-    max-width: 350px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-.sec-hr-top-pad{
-     margin-top: $secActionButtonPadding; // the same padding between the buttons and sec-hr's
-}
-.sec-hr-bottom-pad{
-    margin-bottom: $secActionButtonPadding; // the same padding between the buttons and sec-hr's
-}
-.lg-sec-hr{
-    width: 100% !important;
-    max-width: 100vw !important;
 }

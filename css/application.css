@@ -590,7 +590,7 @@ ul.topnav img {
   color: #fff; }
 
 .report-card-container {
-  max-width: calc( 1100px );
+  max-width: calc(700px);
   margin: auto;
   text-align: center !important; }
   .report-card-container h2 {

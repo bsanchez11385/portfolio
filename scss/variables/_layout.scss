@@ -10,7 +10,6 @@ $headerHeight: 60px; // height of the header
 // -----
 
 $secWidthSmallVW: 90%; // width for components in section (and paragraphs for smaller vw's)
-$secSpacerHeight: 10px; // height of section spacers
 
 // -----
 
@@ -30,12 +29,12 @@ $secHeadingTopBottomPadding: 20px; // top and bottom padding for section headers
 
 // -----
 
-$secActionButtonTopBottomMargin: 30px; // Top and Bottom Margins for section action buttons
-$secActionButtonSideMargin: $secHeadingSidePadding; //Side Margins for section action buttons
+$buttonTopBottomMargin: 30px; // Top and Bottom Margins for section action buttons
+$buttonSideMargin: $secHeadingSidePadding; //Side Margins for section action buttons
 
 // -----
 
-$secActionButtonPadding: 15px; // padding for section action buttons
+$buttonPadding: 15px; // padding for section action buttons
 
 // -----
 

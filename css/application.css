@@ -594,8 +594,6 @@ ul.topnav img {
   margin: auto;
   text-align: center !important; }
   .report-card-container h2 {
-    padding-left: calc((100% - 75%)/4);
-    padding-right: calc((100% - 75%)/4);
     font-family: 'Raleway', sans-serif;
     color: #A13F52;
     font-size: 2.5rem; }
@@ -693,20 +691,9 @@ ul.topnav img {
   margin-top: 0;
   margin-bottom: 0; }
 
-.sec-hr-top-pad {
-  margin-top: 30px; }
-
-.sec-hr-bottom-pad {
-  margin-bottom: calc(30px - 7.5px); }
-
 .lg-sec-hr {
   width: 100% !important;
   max-width: 100vw !important; }
-
-.sec-spacer {
-  width: 1px;
-  height: 10px;
-  background: transparent !important; }
 
 header {
   width: 100%;

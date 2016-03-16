@@ -78,8 +78,8 @@
     }
     // action buttons
     .sec-action-button{
-        margin-top: calc(#{$secActionButtonTopBottomMargin} / 3);
-        margin-bottom: $secActionButtonTopBottomMargin;
+        margin-top: calc(#{$buttonTopBottomMargin} / 3);
+        margin-bottom: $buttonTopBottomMargin;
     }
     .about{
         max-width: calc( #{$row-toggle-width} );
@@ -106,7 +106,7 @@
         }
         // action button
         .sec-action-button{
-            margin-right: $secActionButtonSideMargin;
+            margin-right: $buttonSideMargin;
         }
         img{
             display: none;
@@ -156,7 +156,7 @@
         }
         // action button
         .sec-action-button{
-            margin-left: $secActionButtonSideMargin;
+            margin-left: $buttonSideMargin;
         }
         @media #{$brk-row-toggle}{
             @include translatexy(-25%,0%);

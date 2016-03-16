@@ -1,0 +1,26 @@
+$portrait: 'screen and (orientation: portrait)'; // portrait
+$landscape: 'screen and (orientation: landscape)'; // landscape
+
+$noTouch: 'screen and (min-width: 2733)'; // largest IOS touch screen size (iPad Pro)
+
+$brk-navbar-toggle: 'screen and (max-width: 750px)'; // when to hide full navbar
+
+$row-toggle-width: 1100px;
+$brk-row-toggle: 'screen and (min-width: #{$row-toggle-width})';
+
+$brk-1: '(min-width: 400px)';
+$brk-2: '(min-width: 500px)';
+$brk-3: '(min-width: 600px)';
+$brk-4: '(min-width: 700px)';
+$brk-5: '(min-width: 800px)';
+$brk-6: '(min-width: 900px)';
+$brk-7: '(min-width: 1000px)';
+$brk-8: '(min-width: 1100px)';
+$brk-9: '(min-width: 1200px)';
+$brk-10: '(min-width: 1300px)';
+
+$hbrk-1: '(min-height: 100px)';
+$hbrk-2: '(min-height: 200px)';
+$hbrk-3: '(min-height: 300px)';
+$hbrk-4: '(min-height: 400px)';
+$hbrk-5: '(min-height: 500px)';

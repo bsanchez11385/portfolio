@@ -1,0 +1,22 @@
+// ----- height & widths -----
+$maxWidth: 1200px;
+$maxRowWidth: 700px;
+$headerHeight: 60px; // height of the header
+$secPWidth: 75%; // width for paragraphs in section (for bigger vw's)
+$secPWidthDec: .75; // $secPWidth : as decimal
+$secCompWidth: 90%; // width for components in section (and paragraphs for smaller vw's)
+$secSpacerHeight: 10px; // height of section spacers
+
+// ----- padding and margins -----
+$sidePadding: 5vw; // general side padding
+$secHeadingSidePadding: calc((100% - #{$secPWidth})/4); // side padding for section headers
+$secHeadingTopBottomPadding: 20px; // side padding for section headers
+$secActionButtonTopBottomMargin: 30px; // Top and Bottom Margins for section action buttons
+$secActionButtonSideMargin: $secHeadingSidePadding; //Side Margins for section action buttons
+$secActionButtonPadding: 15px; // padding for section action buttons
+$aboutPictureMargin: 20px; // padding around about-me picture
+
+// MATH
+$x: calc( ( ( #{$maxRowWidth} - ( #{$secPWidthDec} * #{$maxRowWidth} ) ) / 4 ) );
+// this is the distance i need to translate the the p in row-2 to the right by. (b/c i translated the headings as well)
+$transformP: calc( ( ( ( 1 - #{$secPWidthDec} ) / 2 ) * #{$maxRowWidth} ) - ( ( #{$maxRowWidth} - ( #{$secPWidthDec} * #{$maxRowWidth} ) ) / 4 ) );

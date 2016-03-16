@@ -25,11 +25,9 @@ $sidePadding: 5vw; // general side padding
 // -----
 
 $secHeadingSidePadding: calc((100% - #{$secWidthLargeVW})/4); // side padding for section headers
-$secHeadingTopBottomPadding: 20px; // top and bottom padding for section headers
 
 // -----
 
-$buttonTopBottomMargin: 30px; // Top and Bottom Margins for section action buttons
 $buttonSideMargin: $secHeadingSidePadding; //Side Margins for section action buttons
 
 // -----

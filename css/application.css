@@ -859,18 +859,15 @@ header {
   .sec-container-2 .contact p {
     max-width: calc(700px * 0.75); }
 
-footer {
-  margin-top: 25px; }
-  footer .footer-wrapper {
-    margin: auto;
-    text-align: center; }
-  footer .fa {
-    -ms-transform: translate(0, -1px);
-    -webkit-transform: translate(0, -1px);
-    transform: translate(0, -1px);
-    padding: 5px; }
-  footer .copyright span {
-    display: inline-block;
-    padding: 10px; }
+footer .footer-wrapper {
+  margin: auto;
+  text-align: center; }
+footer .fa {
+  -ms-transform: translate(0, -1px);
+  -webkit-transform: translate(0, -1px);
+  transform: translate(0, -1px);
+  padding: 5px; }
+footer .copyright span {
+  display: inline-block; }
 
 /*# sourceMappingURL=application.css.map */

@@ -425,7 +425,8 @@ footer {
 .sec-container-1 {
   background: url("../img/sketches-bg-min.png") no-repeat;
   background-size: cover;
-  background-position: center top; }
+  background-position: center top;
+  border-top: 1px solid #919191; }
 
 .sec-container-2 {
   color: #616961;
@@ -470,8 +471,7 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: transparent;
-  border-bottom: 1px solid #919191; }
+  background-color: transparent; }
 
 /* Float the list items side by side */
 ul.topnav li {
@@ -534,7 +534,6 @@ ul.topnav img {
     display: none; }
 
   ul.topnav li.icon {
-    float: right;
     display: inline-block; }
 
   #logo {
@@ -709,8 +708,12 @@ ul.topnav img {
   height: 10px;
   background: transparent !important; }
 
-header ul {
-  max-width: 1200px; }
+header {
+  width: 100%;
+  text-align: center; }
+  header ul {
+    max-width: 1200px;
+    margin: auto !important; }
 
 .row {
   max-width: 700px;

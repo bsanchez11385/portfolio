@@ -1,7 +1,11 @@
 header{
     
+    width: 100%;
+    text-align: center;
+    
     ul{
-        max-width: $maxWidth;
+        max-width: $maxDocWidth;
+        margin: auto !important;
     }
 
 }

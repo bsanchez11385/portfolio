@@ -67,9 +67,9 @@
         margin-left: auto;
         margin-right: auto;
         text-align: left !important; // override text-align used to align action items
-        width: $secCompWidth;
+        width: $secWidthSmallVW;
         @media #{$brk-3}{
-            width: $secPWidth;
+            width: $secWidthLargeVW;
         }
     }
     // headings
@@ -183,7 +183,7 @@
             text-align: center;
         }
         p{
-            max-width: calc(#{$maxRowWidth} * #{$secPWidthDec});
+            max-width: calc(#{$maxRowWidth} * #{$secWidthLargeVWDec});
         }
     }
 }

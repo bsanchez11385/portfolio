@@ -1,23 +1,33 @@
-// Slabtext Text
+// ----- Slabtext Text -----
 .slabtext{
     color: $tertiary-color;
 }
 
-// first section
+
+
+// ----- first section -----
 .sec-container-1{
+    
+    // ----- section 1 background
     background: url('../img/sketches-bg-min.png') no-repeat;
     background-size: cover;
     background-position: center top;
-    border-top: 1px solid $secondary-color;
+    border-top: 1px solid $secondary-color; // top border
 }
 
-// second section
+
+
+// ----- second section -----
 .sec-container-2{
-     color: $tertiary-color;
-     border-top: 1px solid $secondary-color;
+     color: $tertiary-color; // default text color for section 2
+     border-top: 1px solid $secondary-color; // top border
+     
+     // ----- default color for all section headings
     .sec-heading{
         color: $quintiary-color;
     }
+    
+    // ----- about section -----
     .about{
         p img{
             border-radius: 25px;
@@ -25,7 +35,9 @@
     }
 }
 
-// section dividers
+
+
+// ----- section dividers -----
 .sec-hr{
     border-color: $secondary-color !important;
 }

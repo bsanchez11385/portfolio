@@ -1,6 +1,4 @@
 .report-card-container{
-    width: $secWidthSmallVW;
-    max-width: calc( #{$row-toggle-width} * #{$secWidthLargeVWDec});
     margin: auto;
     text-align: center !important;
     h2{

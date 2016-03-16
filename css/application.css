@@ -589,8 +589,6 @@ ul.topnav img {
   color: #fff; }
 
 .report-card-container {
-  width: 90%;
-  max-width: calc( 1100px * 0.75);
   margin: auto;
   text-align: center !important; }
   .report-card-container h2 {

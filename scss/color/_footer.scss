@@ -1,12 +1,15 @@
 footer { 
-    color: $tertiary-color;
-    border-top: 1px solid $secondary-color;
     
+    color: $tertiary-color; // footer font color
+    border-top: 1px solid $secondary-color; // top border
+    
+    // ----- footer background -----
     .footer-wrapper {
         background: url('../img/grid-bg.svg') repeat;
         background-size: cover;
         background-position: center top;
         
+        // ----- font-awesome icons -----
         .fa {
             border-left: 1px solid $secondary-color;
             border-right: 1px solid $secondary-color;

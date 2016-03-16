@@ -4,8 +4,6 @@
     margin: auto;
     text-align: center !important;
     h2{
-        // padding-left: $buttonSideMargin;
-        // padding-right: $buttonSideMargin;
         @include raleway();
         color: $quartiary-color;
         font-size: 2.5rem;

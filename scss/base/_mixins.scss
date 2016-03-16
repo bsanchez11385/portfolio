@@ -10,6 +10,8 @@
     font-family: 'Raleway', sans-serif;
 }
 
+
+
 // ----- Layout -----
 
 // Translate (x and y)
@@ -19,7 +21,11 @@
     transform: translate($x , $y);
 }
 
-// Center (replace centering with flexbox)
+
+
+// Center (centering without needing flexbox)
+
+// center absolutely
 @mixin center() {
         position: absolute;
         top: 50%;
@@ -27,11 +33,14 @@
         @include translatexy(-50%,-50%);
 }
 
+// center vertically
 @mixin ycenter() {
     position: absolute;
     top: 50%;
     @include translatexy(0%,-50%);
 }
+
+
 
 // Transition Ease
 @mixin ease($time:250ms, $attr:all, $curve:ease-in-out) {

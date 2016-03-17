@@ -529,7 +529,7 @@ ul.topnav img {
   display: none; }
 
 /* When the screen is less than smaller, hide all list items */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 650px) {
   ul.topnav li {
     display: none; }
 
@@ -548,7 +548,7 @@ ul.topnav img {
     padding: 16px 25px;
     font-size: 20px; } }
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 650px) {
   ul.topnav.responsive {
     position: relative; }
 
@@ -705,7 +705,7 @@ header {
     margin: auto !important; }
 
 .row {
-  max-width: 700px;
+  max-width: 750px;
   margin-left: auto;
   margin-right: auto;
   position: relative; }
@@ -775,7 +775,7 @@ header {
     padding-left: calc((100% - 75%)/4);
     padding-right: calc((100% - 75%)/4); }
   .sec-container-2 .about {
-    max-width: calc( 1100px ); }
+    max-width: calc( 1200px ); }
     .sec-container-2 .about .sec-heading {
       text-align: center; }
     .sec-container-2 .about p img {
@@ -803,10 +803,10 @@ header {
       -webkit-transform: translate(0%, -50%);
       transform: translate(0%, -50%);
       right: -250px; }
-      @media screen and (min-width: 1100px) {
+      @media screen and (min-width: 1200px) {
         .sec-container-2 .row-1 img {
           display: block; } }
-    @media screen and (min-width: 1100px) {
+    @media screen and (min-width: 1200px) {
       .sec-container-2 .row-1 {
         -ms-transform: translate(-25%, 0%);
         -webkit-transform: translate(-25%, 0%);
@@ -815,15 +815,15 @@ header {
     text-align: center; }
     .sec-container-2 .row-2 .sec-heading {
       text-align: center; }
-    @media screen and (min-width: 1100px) {
+    @media screen and (min-width: 1200px) {
       .sec-container-2 .row-2 {
         -ms-transform: translate(25%, 0%);
         -webkit-transform: translate(25%, 0%);
         transform: translate(25%, 0%); }
         .sec-container-2 .row-2 p {
-          -ms-transform: translate(calc( ( ( ( 1 - 0.75 ) / 2 ) * 700px ) - ( ( 700px - ( 0.75 * 700px ) ) / 4 ) ), 0%);
-          -webkit-transform: translate(calc( ( ( ( 1 - 0.75 ) / 2 ) * 700px ) - ( ( 700px - ( 0.75 * 700px ) ) / 4 ) ), 0%);
-          transform: translate(calc( ( ( ( 1 - 0.75 ) / 2 ) * 700px ) - ( ( 700px - ( 0.75 * 700px ) ) / 4 ) ), 0%); } }
+          -ms-transform: translate(calc( ( ( ( 1 - 0.75 ) / 2 ) * 750px ) - ( ( 750px - ( 0.75 * 750px ) ) / 4 ) ), 0%);
+          -webkit-transform: translate(calc( ( ( ( 1 - 0.75 ) / 2 ) * 750px ) - ( ( 750px - ( 0.75 * 750px ) ) / 4 ) ), 0%);
+          transform: translate(calc( ( ( ( 1 - 0.75 ) / 2 ) * 750px ) - ( ( 750px - ( 0.75 * 750px ) ) / 4 ) ), 0%); } }
     .sec-container-2 .row-2 img {
       display: none;
       width: 250px;
@@ -834,14 +834,14 @@ header {
       -webkit-transform: translate(0%, -50%);
       transform: translate(0%, -50%);
       left: -250px; }
-      @media screen and (min-width: 1100px) {
+      @media screen and (min-width: 1200px) {
         .sec-container-2 .row-2 img {
           display: block; } }
   .sec-container-2 .row-3 .sec-heading {
     text-align: right; }
   .sec-container-2 .row-3 .sec-action-button {
     margin-left: calc((100% - 75%)/4); }
-  @media screen and (min-width: 1100px) {
+  @media screen and (min-width: 1200px) {
     .sec-container-2 .row-3 {
       -ms-transform: translate(-25%, 0%);
       -webkit-transform: translate(-25%, 0%);
@@ -856,17 +856,17 @@ header {
     -webkit-transform: translate(0%, -50%);
     transform: translate(0%, -50%);
     right: -250px; }
-    @media screen and (min-width: 1100px) {
+    @media screen and (min-width: 1200px) {
       .sec-container-2 .row-3 img {
         display: block; } }
   .sec-container-2 .portfolio .sec-heading {
     text-align: center; }
   .sec-container-2 .portfolio p {
-    max-width: calc(700px * 0.75); }
+    max-width: calc(750px * 0.75); }
   .sec-container-2 .contact .sec-heading {
     text-align: center; }
   .sec-container-2 .contact p {
-    max-width: calc(700px * 0.75); }
+    max-width: calc(750px * 0.75); }
 
 footer .footer-wrapper {
   margin: auto;

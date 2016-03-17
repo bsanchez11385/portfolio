@@ -34,18 +34,7 @@
         </script>
     </head>
     <body onresize="slabby()">   
-        <header>
-        <ul class="topnav">
-            <a href="#"><li id="logo"><img src="img/bh-full.png"></li></a>
-            <li id="hide"><a>bakgat</a></li>
-            <li id="contact-anchor"><a href="#contact" onclick="myFunction()">Contact</a></li>
-            <li id="portfolio-anchor"><a href="#portfolio" onclick="myFunction()">Portfolio</a></li>
-            <li id="about-me-anchor"><a href="#about" onclick="myFunction()">About Me</a></li>
-            <li class="icon">
-                <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
-            </li>
-        </ul>
-        </header>
+        <?php include 'includes/header.php'; ?>
         <section>
             <!-- Section 1 -->
             <div class="section-container sec-container-1">
@@ -60,40 +49,17 @@
                 <a name="section-2"></a>
                 <a name="about"></a>
                 <div class="row about">
-                    <h1 class="sec-heading">A Little About Me</h1>
+                    <h1 class="sec-heading">About Me</h1>
                     <p><img src="img/about-me-picture-min.jpg" alt="picture of Brian and Nidia Sanchez"></p>
                     <p>I'm an up-and-coming web designer, and I currently live in the Salt Lake Valley. I studied Economics at Brigham Young University, and originally discovered my love for coding when working with statistical programming packages (mostly SAS, Stata, and R). Since I was a teenager, I've been fascinated by the fields of web design and development, but just recently decided to follow my passion.</p>
                     <p>I spend my days combing through Treehouse and Google to learn new coding skills and brush up on old ones. While I'm not coding, I also love working out and learning new things (currently learning Afrikaans). Right now I'm looking for a development position where I can unleash my creative potential and love for learning.</p>
                 </div>
-                <?php include 'includes/whatHowWHy.php'; ?>
+                <?php include 'includes/zigZagRows.php'; ?>
                 <hr class="sec-hr lg-sec-hr">
                 <!-- Portfolio -->
                 <a name="portfolio"></a>
                 <div class="portfolio">
                     <h1 class="sec-heading">Portfolio</h1>
-                    <!-- Skill Bars -->
-                    <div class="skillbar clearfix " data-percent="80%" id="html5">
-                        <div class="skillbar-title"><span>HTML5</span></div>
-                        <div class="skillbar-bar"></div>
-                        <div class="skill-bar-percent">80%</div>
-                    </div>
-                    <div class="skillbar clearfix " data-percent="75%" id="css3">
-                        <div class="skillbar-title"><span>CSS3</span></div>
-                        <div class="skillbar-bar"></div>
-                        <div class="skill-bar-percent">75%</div>
-                    </div>
-                    <div class="skillbar clearfix " data-percent="35%" id="js">
-                        <div class="skillbar-title"><span>Javascript</span></div>
-                        <div class="skillbar-bar"></div>
-                        <div class="skill-bar-percent">35%</div>
-                    </div>
-                    <div class="skillbar clearfix " data-percent="30%" id="php">
-                        <div class="skillbar-title"><span>PHP</span></div>
-                        <div class="skillbar-bar"></div>
-                        <div class="skill-bar-percent">30%</div>
-                    </div>
-                    <!-- end Skill Bars -->
-                    <hr class="sec-hr">
                     <!-- Report Card -->
                     <div class='report-card-container'>
                         <div class="report-card treehouse"></div>
@@ -130,7 +96,7 @@
             txt = [
                 "<span class='offset-1 bold'>Hi</span>, I'm <span class='i'>Brian Sanchez</span>.",
                 "I'm an <span class='underline'>up-and-coming</span>",
-                "<span class='offset-2'>Web Designer</span>", 
+                "<span class='offset-2'>Web Developer</span>", 
                 "and I <span class='offset-1 i bold'>LOVE</span> what I do."];
             
             $(".toslab").html(stS + txt.join(stE + stS) + stE).slabText();

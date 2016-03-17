@@ -60,6 +60,11 @@
                 <a name="portfolio"></a>
                 <div class="portfolio">
                     <h1 class="sec-heading">Portfolio</h1>
+                    <!-- Projects -->
+                    <div class="project top-space-1 bottom-space-1" id="project-1"></div>
+                    <div class="project top-space-1 bottom-space-1" id="project-2"></div>
+                    <div class="project top-space-1 bottom-space-1" id="project-3"></div>
+                    <!-- end Projects -->
                     <!-- Report Card -->
                     <div class='report-card-container'>
                         <div class="report-card treehouse"></div>

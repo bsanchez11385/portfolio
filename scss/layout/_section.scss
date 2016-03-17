@@ -200,6 +200,7 @@
     .portfolio{
         .sec-heading{
         text-align: center;
+        margin-bottom: $spacer2;
         }
         p{
             max-width: calc(#{$maxRowWidth} * #{$secWidthLargeVWDec}); // calc to get width of row paragraphs

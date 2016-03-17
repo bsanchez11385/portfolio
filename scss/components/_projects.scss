@@ -1,0 +1,12 @@
+.project{
+    width: $secWidthSmallVW;
+    height: 300px;
+    
+    @media #{$brk-3}{
+        width: $secWidthLargeVW;
+    }
+    
+    background: black;
+    margin-left: auto;
+    margin-right: auto;
+}

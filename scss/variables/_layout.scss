@@ -20,11 +20,15 @@ $secWidthLargeVWDec: .75; // $secWidthLargeVW : as decimal
 
 // ----- padding and margins -----
 
+$spacer1: 15px; // main spacer for document
+
+// -----
+
 $sidePadding: 5vw; // general side padding
 
 // -----
 
-$secHeadingSidePadding: calc((100% - #{$secWidthLargeVW})/4); // side padding for section headers
+$secHeadingSidePadding: calc((100% - #{$secWidthLargeVW})/4); // side padding for section headers (away from closest edge)
 
 // -----
 

@@ -1,8 +1,14 @@
+// ----- GENERAL -----
 .row{
     max-width: $maxRowWidth;
     margin-left: auto;
     margin-right: auto;
     position: relative;
+}
+
+.sec-heading{
+    margin-top: $spacer1;
+    margin-bottom: $spacer1;
 }
 
 // ----- Section 1 -----
@@ -61,6 +67,8 @@
        display: none;
     }
 }
+
+
 
 // ----- Section 2 -----
 .sec-container-2{

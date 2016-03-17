@@ -691,6 +691,12 @@ ul.topnav img {
   width: 100% !important;
   max-width: 100vw !important; }
 
+.top-space-1 {
+  margin-top: 15px; }
+
+.bottom-space-1 {
+  margin-bottom: 15px; }
+
 header {
   width: 100%;
   text-align: center; }
@@ -703,6 +709,10 @@ header {
   margin-left: auto;
   margin-right: auto;
   position: relative; }
+
+.sec-heading {
+  margin-top: 15px;
+  margin-bottom: 15px; }
 
 .sec-container-1 {
   text-align: center;

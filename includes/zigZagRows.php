@@ -1,11 +1,11 @@
-<hr class="sec-hr">
+<hr class="sec-hr top-space-1">
 <div class="row row-1">
     <h1 class="sec-heading">Goal</h1>
     <p>I want to make a living creating. Whether by websites that are beautifully designed to be effective and efficient, useful mobile applications that make life easier and more productive, or simply something pleasant to look at, I want to design, create, and code.</p>
     <img src="img/Responsive-sketch.png">
     <a href="#"><div class="action-button sec-action-button">Wanna Work with Me?</div></a>
 </div>
-<hr class="sec-hr top-space-1">
+<hr class="sec-hr top-space-2">
 <div class="row row-2">
     <h1 class="sec-heading">Plan</h1>
     <p>My plan is to always continue learning. Luckily, digging through books (...google) is one of the things I enjoy most.</p>
@@ -13,7 +13,7 @@
     <img src="img/list.png">
     <a href="#"><div class="action-button sec-action-button">Look at my Resume</div></a>
 </div>
-<hr class="sec-hr top-space-1">
+<hr class="sec-hr top-space-2">
 <div class="row row-3">
     <h1 class="sec-heading">Motivation</h1>
     <p>What's more motivating than doing something you love?!</p>

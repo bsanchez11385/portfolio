@@ -7,7 +7,7 @@
 }
 
 .sec-heading{
-    margin-top: $spacer1;
+    margin-top: $spacer2;
     margin-bottom: $spacer1;
 }
 
@@ -93,9 +93,15 @@
     
     // ----- about section -----
     .about{
-        max-width: calc( #{$row-toggle-width} );
+        @media #{$brk-row-toggle}{
+            max-width: $maxAboutWidth;
+            p{
+                width: calc( 100% - #{$maxRowWidth} / 4 );
+            }
+        }
+        max-width: $maxAboutWidth;
         .sec-heading{
-            text-align: center;
+            text-align: center;        
         }
         p img{
             width: 180px;

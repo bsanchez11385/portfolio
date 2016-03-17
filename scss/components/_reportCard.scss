@@ -5,6 +5,12 @@
         @include raleway();
         color: $quartiary-color;
         font-size: 2.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: $secWidthSmallVW;
+        @media #{brk-3}{
+            width: $secWidthLargeVW;
+        }
     }
     p{
         @include openSans();

@@ -2,6 +2,7 @@
 
 $maxDocWidth: 1200px;
 $maxRowWidth: 750px;
+$maxAboutWidth: calc( 1.5 * #{$maxRowWidth} ) ;
 
 // -----
 
@@ -20,7 +21,8 @@ $secWidthLargeVWDec: .75; // $secWidthLargeVW : as decimal
 
 // ----- padding and margins -----
 
-$spacer1: 15px; // main spacer for document
+$spacer1: 10px; // main spacer for document
+$spacer2: 20px; // larger spacer for document
 
 // -----
 

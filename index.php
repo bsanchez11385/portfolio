@@ -55,7 +55,7 @@
                     <p>I spend my days combing through Treehouse and Google to learn new coding skills and brush up on old ones. While I'm not coding, I also love working out and learning new things (currently learning Afrikaans). Right now I'm looking for a development position where I can unleash my creative potential and love for learning.</p>
                 </div>
                 <?php include 'includes/zigZagRows.php'; ?>
-                <hr class="sec-hr lg-sec-hr top-space-1">
+                <hr class="sec-hr lg-sec-hr top-space-2">
                 <!-- Portfolio -->
                 <a name="portfolio"></a>
                 <div class="portfolio">
@@ -65,7 +65,7 @@
                         <div class="report-card treehouse"></div>
                     </div><!-- end Report Card -->
                 </div><!-- end Portfolio -->
-                <hr class="sec-hr lg-sec-hr top-space-1">
+                <hr class="sec-hr lg-sec-hr top-space-2">
                 <!-- Contact -->
                 <a name="contact"></a>
                 <div class='contact'>
@@ -76,7 +76,7 @@
         </section>
         <footer>
             <!-- Footer Wrapper -->
-            <div class="footer-wrapper top-space-1">
+            <div class="footer-wrapper top-space-2">
                     <!-- go-to-top button -->
                     <div class="go-top" id="go-top">
                         <a href="#">

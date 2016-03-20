@@ -1,4 +1,3 @@
-<!-- Skill Bars -->
 <div class="skillbar clearfix " data-percent="80%" id="html5">
     <div class="skillbar-title"><span>HTML5</span></div>
     <div class="skillbar-bar"></div>
@@ -19,5 +18,3 @@
     <div class="skillbar-bar"></div>
     <div class="skill-bar-percent">30%</div>
 </div>
-<!-- end Skill Bars -->
-<hr class="sec-hr">

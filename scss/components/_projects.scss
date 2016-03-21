@@ -1,12 +1,16 @@
+.project-container{
+    max-width: $maxAboutWidth;
+    margin: auto;
+}
+
 .project{
     width: $secWidthSmallVW;
-    height: 300px;
-    
+    max-width: 350px;
     @media #{$brk-3}{
         width: $secWidthLargeVW;
     }
-    
-    background: black;
+    border: 1px solid $tertiary-color;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }

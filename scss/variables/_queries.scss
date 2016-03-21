@@ -32,6 +32,6 @@ $hbrk-5: '(min-height: 500px)';
 
 // ----- toggle media queries -----
 
-$brk-navbar-toggle: 'screen and (max-width: 650px)'; // when to hide full navbar
+$brk-navbar-toggle: 'screen and (max-width: 760px)'; // when to hide full navbar
 $row-toggle-width: 1200px; // when to toggle rows to zig-zag
 $brk-row-toggle: 'screen and (min-width: #{$row-toggle-width})';

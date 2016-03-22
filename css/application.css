@@ -588,24 +588,6 @@ ul.topnav img {
   background: #A13F52;
   color: #fff; }
 
-.report-card-container {
-  margin: auto;
-  text-align: center !important; }
-  .report-card-container h2 {
-    font-family: 'Raleway', sans-serif;
-    color: #A13F52;
-    font-size: 2.5rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%; }
-    @media brk-3 {
-      .report-card-container h2 {
-        width: 75%; } }
-  .report-card-container p {
-    font-family: 'Open Sans', sans-serif;
-    line-height: 2;
-    font-size: 1.5rem; }
-
 .skillbar {
   position: relative;
   display: block;

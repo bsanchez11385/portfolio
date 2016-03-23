@@ -6,7 +6,7 @@
         $('#about-me-anchor').localScroll({duration:750});
     });
     $(document).ready(function() {
-        $('#contact-anchor').localScroll({duration:750});
+        $('.contact-anchor').localScroll({duration:750});
     });
     $(document).ready(function() {
         $('#portfolio-anchor').localScroll({duration:750});

@@ -8,9 +8,6 @@
       <input placeholder="Your Email Address" type="email" tabindex="2" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
-    </fieldset>
-    <fieldset>
       <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
     </fieldset>
     <fieldset>

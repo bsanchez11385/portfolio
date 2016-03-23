@@ -218,9 +218,7 @@
             @media #{$brk-5}{
                 float: left;
                 width: 50%;
-                position: absolute;
-                top: 50%;
-                @include translatexy(0,50%);
+                margin-top: 55px;
             }
         }
     }

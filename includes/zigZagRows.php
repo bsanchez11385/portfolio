@@ -1,23 +1,22 @@
 <hr class="sec-hr top-space-1">
 <div class="row row-1">
-    <h1 class="sec-heading">Goal</h1>
-    <p>I want to make a living creating. Whether by websites that are beautifully designed to be effective and efficient, useful mobile applications that make life easier and more productive, or simply something pleasant to look at, I want to design, create, and code.</p>
+    <h1 class="sec-heading">What I Do</h1>
+    <p>I design and create beautiful, responsive, and well though-out websites to serve your needs. Whether you need a simple page to express yourself, or an interactive space to engage with others, I'd love to help!</p>
     <img src="img/Responsive-sketch.png">
-    <a href="#"><div class="action-button sec-action-button">Wanna Work with Me?</div></a>
+    <a href="#"><div class="action-button sec-action-button">Let's Do This!</div></a>
 </div>
 <hr class="sec-hr top-space-2">
 <div class="row row-2">
-    <h1 class="sec-heading">Plan</h1>
-    <p>My plan is to always continue learning. Luckily, digging through books (...google) is one of the things I enjoy most.</p>
-    <p>I want to work with a company where I can truly show my worth. I work hard but I also love efficiency, so I plan to make myself invaluable by not just learning enough to excel at what I do, but make others' jobs easier for them as well.</p>
+    <h1 class="sec-heading">How I Do It</h1>
+    <p>Let me know what you're looking for - or we can figure that out together - and I'll come up with a gameplan. If you like the plan, I'll keep you updated along the way, and soon you'll have a web presence to be proud of!</p>
     <img src="img/list.png">
-    <a href="#"><div class="action-button sec-action-button">Look at my Resume</div></a>
+    <a href="#"><div class="action-button sec-action-button">Don't Be Shy, Talk to Me!</div></a>
 </div>
 <hr class="sec-hr top-space-2">
 <div class="row row-3">
-    <h1 class="sec-heading">Motivation</h1>
+    <h1 class="sec-heading">Why I Do It</h1>
     <p>What's more motivating than doing something you love?!</p>
-    <p>If I can make my living doing something I look forward to doing every single day, something on which I'm more than happy to spend longer hours, you can bet I'll be motivated to do the best and be the best possible.</p>
+    <p>I want to make my living doing something I look forward to every single day, something on which I'm more than happy to spend long hours. I love being able to take a vision, or concept, and turn it into something real that the whole world can see!</p>
     <img src="img/i-heart-code.png">
-    <a href="#"><div class="action-button sec-action-button">Let's Network!</div></a>
+    <a href="#"><div class="action-button sec-action-button">Help Me Help You!</div></a>
 </div>

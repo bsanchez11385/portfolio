@@ -17,16 +17,28 @@
 
 .top-space-1{
     margin-top: $spacer1;
+    @media #{$brk-5}{
+        margin-top: calc( #{$spacer1} * 2 );
+    }
 }
 
 .bottom-space-1{
     margin-bottom: $spacer1;
+    @media #{$brk-5}{
+        margin-bottom: calc( #{$spacer1} * 2 );
+    }
 }
 
 .top-space-2{
     margin-top: $spacer2;
+    @media #{$brk-5}{
+        margin-top: calc( #{$spacer2} * 2 );
+    }
 }
 
 .bottom-space-2{
     margin-bottom: $spacer2;
+    @media #{$brk-5}{
+        margin-bottom: calc( #{$spacer2} * 2 );
+    }
 }

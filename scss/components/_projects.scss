@@ -3,7 +3,7 @@
     margin: auto;
 }
 
-.project{
+.project-wrapper{
     width: $secWidthSmallVW;
     max-width: 350px;
     @media #{$brk-3}{
@@ -13,4 +13,9 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 0;
+}
+
+.project{
+    width: 100%;
 }

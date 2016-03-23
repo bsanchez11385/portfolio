@@ -208,11 +208,20 @@
     }
 
     .contact{
+        max-width: $maxAboutWidth;
+        margin: auto;
+        position: relative;
         .sec-heading{
             text-align: center;
         }
-        p{
-            max-width: calc(#{$maxRowWidth} * #{$secWidthLargeVWDec}); // calc to get width of row paragraphs
+        .contact-p-container{
+            @media #{$brk-5}{
+                float: left;
+                width: 50%;
+                position: absolute;
+                top: 50%;
+                @include translatexy(0,50%);
+            }
         }
     }
 }
